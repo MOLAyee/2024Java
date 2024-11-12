@@ -6,11 +6,14 @@ public class Main {
 //        Car car = new Car(100);
 //        System.out.println("Speed : " + car.speed);
 
+//        Truck truck = new Truck(80);
+//        truck.ShowSpeed();
+//        System.out.println("Speed : " + truck.speed);//hiding
+
         Truck truck = new Truck(80);
-        truck.ShowSpeed();
-        //System.out.println("Speed : " + truck.speed);
+
         Car car = truck;
         car.ShowSpeed();
-        //System.out.println("Speed : " + car.speed);
+        System.out.println("Speed : " + car.speed);
     }
 }
